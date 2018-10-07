@@ -1,0 +1,54 @@
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: rgb(190, 205, 228);
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+}
+
+h1 {
+    color: #808e9b;
+}
+
+h2 {
+    color: red;
+}
+
+    
+#search {
+    background-color: #0206f5;
+    color: white;
+    border: solid 1px white;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+#countries {
+    width: 400px;
+    margin: 0;
+    padding: 20px;
+    background-color: #0206f5;
+    color: white;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 2;
+}
+
+#country-name {
+    width: 200px;
+    box-shadow: 1px 1px 5px rgb(155, 210, 247);
+}
+
+
